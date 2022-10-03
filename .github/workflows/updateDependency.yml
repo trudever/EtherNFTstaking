@@ -27,7 +27,7 @@ jobs:
         continue-on-error: true
 
       - name: Cache node modules
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed # pin@v2
+        uses: actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1 # pin@v2
         with:
           path: |
             .npm-cache
